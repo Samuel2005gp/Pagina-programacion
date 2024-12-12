@@ -1,27 +1,84 @@
 *{
-    }
-
-section{
-    background-color: rgb(255, 255, 255);
-}
-
-/* Todo lo sobre la guia */
-
-.guia{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
+main{
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+}
+
+section{
+    background-color: rgb(204, 204, 204);
+}
+
+/* Todo lo sobre la guia */
+
+
+/* Titulos */
+
+#titulo_principal{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+
+.titulo_lenguaje{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-style: bold;
+}
+
+.guia{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+/* Tamaño de las imagenes */
+
 #img_guia{
     width: 720px;
     height: 250px;
 }
 
-
 .lenguaje_logo{
     height: 150px;
     width: 200px;
 }
+
+#logo_html{
+    width: 300px;
+    height: 200px;
+}
+
+
+/* Opciones de los lenguajes a leeer */
+
+.menu_lenguajes li{
+    list-style: none;
+    display: inline;
+    justify-content: space-evenly;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.menu_lenguajes li:hover{
+    background-color: #f2f2f2;
+}
+
+.lenguaje{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 

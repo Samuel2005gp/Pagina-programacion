@@ -11,31 +11,35 @@
 
 </head>
     <body>
-        
-        <section class="guia">
-            
-            <h2>Guias - ¿Como puedo empezar a programar?</h2>
-            <p>
-                Puedes empezar a programar cuanto tu quieras, aqui veremos unas guias para los lenguajes mas conocidos de la programación
-                Si estás interesado en aprender a programar pero no sabes por dónde comenzar, ¡has llegado al lugar indicado! 
-                Encontrarás una guía sencilla con los pasos esenciales y recursos recomendados para adentrarte en este fascinante mundo.
-                Esta sección está diseñada para principiantes, así que no te preocupes si no tienes experiencia previa. 
-                Aquí exploraremos los conceptos básicos, los lenguajes más amigables para empezar y las herramientas que te facilitarán el aprendizaje. 
-                ¡Prepárate para descubrir cómo convertir tus ideas en código!
-                Tienes varias opciones para comenzar
-            </p>
-            <img id="img_guia" src="img/code_guia.png" alt="img_guia">
+        <main>
+
+            <article class="guia">
+                <h2 id="titulo_principal">Guias - ¿Como puedo empezar a programar?</h2>
+                <p>
+                    Puedes empezar a programar cuanto tu quieras, aqui veremos unas guias para los lenguajes mas conocidos de la programación
+                    Si estás interesado en aprender a programar pero no sabes por dónde comenzar, ¡has llegado al lugar indicado! 
+                    Encontrarás una guía sencilla con los pasos esenciales y recursos recomendados para adentrarte en este fascinante mundo.
+                    Esta sección está diseñada para principiantes, así que no te preocupes si no tienes experiencia previa. 
+                    Aquí exploraremos los conceptos básicos, los lenguajes más amigables para empezar y las herramientas que te facilitarán el aprendizaje. 
+                    ¡Prepárate para descubrir cómo convertir tus ideas en código!
+                    Tienes varias opciones para comenzar
+                </p>
+                <img id="img_guia" src="img/code_guia.png" alt="img_guia">
+            </article>
+
+            <div class="menu_lenguajes">
                 <ul>
                     <li><a href="#python">Python</a></li>
                     <li><a href="#html_css">HTML/CSS</a></li>
                     <li><a href="#javascript">Java Script</a></li>
                 </ul>
+            </div>
 
 
             <!-- GUIDA DE PYTHON -->
 
             <article class="lenguaje" id="python">
-                <h2>Python</h2>
+                <h2 class="titulo_lenguaje">Python</h2>
 
                 <img class="lenguaje_logo" src="img/logo/logo_python.png" alt="logo_python">
 
@@ -44,7 +48,7 @@
                     Python se utiliza en una amplia variedad de campos, como desarrollo web, análisis de datos, inteligencia artificial y automatización. 
                     Es una excelente opción para aprender las bases de la programación.
                 </p>
-                <h3>¿Como empezar en python?</h3>
+                <h2>¿Como empezar en python?</h2>
                     <h2>Instala Python</h2>
                 <ul>
                     <li>Ve al sitio oficial de <a href="https://www.python.org/" target="_blank">Python</a> y descarga la última versión compatible con tu sistema operativo. Durante la instalación, asegúrate de marcar la opción "Add Python to PATH".</li>
@@ -68,11 +72,11 @@
             <!-- GUIA DE HTML Y CSS -->
 
             <article class="lenguaje" id="html">
-                <h2>HTML/CSS</h2>
+                <h2 class="titulo_lenguaje">HTML/CSS</h2>
 
-        <img class="lenguaje_logo" src="img/logo/html_css_logo.png" alt="">
+                <img id="logo_html" src="img/logo/html_css_logo.png" alt="logo_html">
 
-                    <strong> HTML (HyperText Markup Language) y CSS (Cascading Style Sheets) son el dúo básico para crear y diseñar páginas web.</strong>
+                    <h2>HTML (HyperText Markup Language) y CSS (Cascading Style Sheets) son el dúo básico para crear y diseñar páginas web.</h2>
                     <ul>
                         <li>HTML: Es el lenguaje encargado de estructurar el contenido de una página web, como textos, imágenes, videos y enlaces. Es la columna vertebral de cualquier sitio.</li>
                         <li>CSS: Se utiliza para darle estilo y diseño a la página, como colores, fuentes y disposición de elementos. Con CSS, puedes hacer que una página HTML sea visualmente atractiva y fácil de navegar. Ambos son esenciales para cualquier persona interesada en el desarrollo web.</li>
@@ -90,11 +94,11 @@
                     <li>Abre tu editor de texto y escribe el siguiente codigo basico</li>
                 </ul>
         <img src="img/guia_html/Paso_3_html.PNG" alt="paso3">
-                <ol>
+                <ul>
                     <li>Despues lo abres para ver el resultado, (Con la extension live server)</li>
                     <li><strong>Crea tu primer archivo CSS</strong></li>
                     <li>Para esto tienes que crear una carpeta al mismo nivel del html con el nombre de css (de preferencia), y dentro de esa carpeta poner un archivo que termine en .css por ejemplo (estilos.css)</li>
-                </ol>
+                </ul>
         <img src="img/guia_html/paso_4_html.PNG" alt="paso4">
 
                 <ol>
@@ -158,6 +162,6 @@
                 <h2>Video recomendado para JavaScript</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/z95mZVUcJ-E?si=Q0nFPoASOerux3NC" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </article>
-        </section>
+        </main>
     </body>
 </html>
