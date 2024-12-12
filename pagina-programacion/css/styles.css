@@ -1,24 +1,71 @@
 *{
     text-decoration: none;
-    list-style: none;
-    margin: 0px;
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+}
+body {
+    background-color: #0ca6df;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+body h2{
+    color: black;
 }
 
-main{
+nav {
     text-align: center;
-    background-color: rgb(177, 177, 177);
+    
 }
 
-section{
-    background-color: rgb(204, 204, 204);
+header h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Montserrat", serif;
+    font-style:bolder;
+    text-shadow: 1px 2px rgb(37, 34, 34) ;
 }
 
-/* Todo lo sobre la guia */
+header{
+    background-color:#8b1db6;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav li {
+    cursor: pointer;
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin: 16px auto;
+    font-size: 25px;
+}
 
+
+nav li:hover{
+    font-size: 29px;
+    color: rgb(243, 208, 11);
+    
+}
+.banner {
+    width: 100%;
+    border-radius: 10px;
+    height: 600px;
+    
+}
+.presentacion {
+    font-size: 20px;
+    text-align: justify;
+    display: grid;
+    background-color: rgba(219, 212, 212, 0.377);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+    margin: 10px;
+}
+.presentacion, h2{
+    text-align: center;
+}
+.presentacion:hover{
+    transform: translateY(-5px);
+}
 
 /* Titulos */
 
@@ -36,12 +83,7 @@ section{
     font-style: bold;
 }
 
-.guia{
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 15px;
-}
+
 
 /* Tamaño de las imagenes */
 
@@ -49,7 +91,15 @@ section{
     width: 720px;
     height: 250px;
 }
+.imguia{
+    border-radius: 10px;
+    width: 1000px;
+    height: 250px;
+    margin: 10px;
+position: relative;
+left: 340px;
 
+}
 .lenguaje_logo{
     height: 150px;
     width: 200px;
@@ -60,25 +110,47 @@ section{
     height: 200px;
 }
 
-
+.imagenes {
+border-radius: 10px;
+position: relative;
+right: 200px;
+}
 /* Opciones de los lenguajes a leeer */
 
 .menu_lenguajes li{
     list-style: none;
     display: inline;
     justify-content: space-evenly;
-    padding: 40px;
+    padding: 20px;
     font-size: 40px;
+    margin-left: 12rem;
+    position: relative;
+    cursor: pointer;
+    
 }
 
-.menu_lenguajes li:hover{
-    background-color: #f2f2f2;
+/* videos  */
+.vid{
+    margin: 2rem;
+    margin-left: 25rem;
+    
 }
 
-.lenguaje{
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
+.card{
+    text-align: justify;
+    font-size: 20px;
+    display: grid;
+    background-color: rgba(219, 212, 212, 0.377);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+    margin: 10px;
 }
 
+.card:hover{
+    transform: translateY(-5px);
+}
 
+.card  img{
+    margin-left: 35rem;
+}

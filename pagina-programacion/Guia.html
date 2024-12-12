@@ -8,70 +8,89 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
     <body>
-        <main>
+        <header>
+            <h1>Página de programación</h1>
+            <nav>
+            <ul>
+                <li><a href="#introduccion"></a>Introducción</li>
+                <li><a href="guia.html"></a>Guía</li>
+                <li><a href="Recursos.html"></a>Recursos</li>
+            </ul>
+            </nav>
+        </header>
 
-            <article class="guia">
-                <h2 id="titulo_principal">Guias - ¿Como puedo empezar a programar?</h2>
-                <p>
-                    Puedes empezar a programar cuanto tu quieras, aqui veremos unas guias para los lenguajes mas conocidos de la programación
-                    Si estás interesado en aprender a programar pero no sabes por dónde comenzar, ¡has llegado al lugar indicado! 
-                    Encontrarás una guía sencilla con los pasos esenciales y recursos recomendados para adentrarte en este fascinante mundo.
-                    Esta sección está diseñada para principiantes, así que no te preocupes si no tienes experiencia previa. 
-                    Aquí exploraremos los conceptos básicos, los lenguajes más amigables para empezar y las herramientas que te facilitarán el aprendizaje. 
-                    ¡Prepárate para descubrir cómo convertir tus ideas en código!
-                    Tienes varias opciones para comenzar
-                </p>
-                <img id="img_guia" src="img/code_guia.png" alt="img_guia">
-            </article>
+            <figure>
+            <img
+                class="banner"
+                src="https://www.azulweb.net/wp-content/uploads/2019/06/Cursos-Gratuitos-De-Programación.png"
+                alt="banner"
+            />
+            </figure>
 
-            <div class="menu_lenguajes">
-                <ul>
-                    <li><a href="#python">Python</a></li>
-                    <li><a href="#html_css">HTML/CSS</a></li>
-                    <li><a href="#javascript">Java Script</a></li>
-                </ul>
-            </div>
+    <!-- INICIO DE GUIA -->
+
+        <article class="card">
+        <h2 id="titulo_principal">Guias - ¿Como puedo empezar a programar?</h2>
+            <p>
+                Puedes empezar a programar cuanto tu quieras, aqui veremos unas guias para los lenguajes mas conocidos de la programación
+                Si estás interesado en aprender a programar pero no sabes por dónde comenzar, ¡has llegado al lugar indicado! 
+                Encontrarás una guía sencilla con los pasos esenciales y recursos recomendados para adentrarte en este fascinante mundo.
+                Esta sección está diseñada para principiantes, así que no te preocupes si no tienes experiencia previa. 
+                Aquí exploraremos los conceptos básicos, los lenguajes más amigables para empezar y las herramientas que te facilitarán el aprendizaje. 
+                ¡Prepárate para descubrir cómo convertir tus ideas en código!
+                Tienes varias opciones para comenzar
+            </p>
+        </article>
+
+        <img class="imguia" id="img_guia" src="img/code_guia.png" alt="img_guia">
+        <div class="menu_lenguajes">
+            <ul>
+                <li><a href="#python">Python</a></li>
+                <li><a href="#html_css">HTML/CSS</a></li>
+                <li><a href="#javascript">Java Script</a></li>
+            </ul>
+        </div>
 
 
-            <!-- GUIDA DE PYTHON -->
 
-            <article class="lenguaje" id="python">
-                <h2 class="titulo_lenguaje">Python</h2>
 
-                <img class="lenguaje_logo" src="img/logo/logo_python.png" alt="logo_python">
+<!-- GUIDA DE PYTHON -->
 
-                <p>Python es un lenguaje de programación popular por su simplicidad y versatilidad. 
-                    Es ideal para principiantes porque su sintaxis es clara y fácil de leer, lo que permite concentrarse más en la lógica que en los detalles técnicos. 
-                    Python se utiliza en una amplia variedad de campos, como desarrollo web, análisis de datos, inteligencia artificial y automatización. 
-                    Es una excelente opción para aprender las bases de la programación.
-                </p>
-                <h2>¿Como empezar en python?</h2>
-                    <h2>Instala Python</h2>
-                <ul>
-                    <li>Ve al sitio oficial de <a href="https://www.python.org/" target="_blank">Python</a> y descarga la última versión compatible con tu sistema operativo. Durante la instalación, asegúrate de marcar la opción "Add Python to PATH".</li>
-                    <li><strong>Elige un editor de código</strong></li>
-                    <li>Puedes usar un editor como VS Code, PyCharm (ideal para principiantes) o incluso el simple IDLE que viene con Python.</li>
-                    <li>Aprende lo básico</li>
-                    <li>Comienza con temas como</li>
-                    <li>Sintaxis básica: variables, tipos de datos y operadores.</li>
-                    <li>Control de flujo condicionales <code>(if  else elif ) y bucles (for, while)</code>.</li>
-                    <li>Funciones y manejo de errores</li>
-                    <li>Practica con proyectos simples</li>
-                    <li>Escribe pequeños programas como una calculadora, un juego de adivinanzas o una lista de tareas. Esto te ayudará a aplicar lo aprendido.</li>
-                    <li>Consulta recursos adicionales</li>
-                    <li>Usa plataformas como <a href="https://www.w3schools.com/python/" target="_blank">w3schools</a>, <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>, o sigue cursos gratuitos en YouTube.</li>
-                </ul>
+        <article class="card" id="python">
+            <h2 class="titulo_lenguaje">Python</h2>
 
+            <img class="lenguaje_logo" src="img/logo/logo_python.png" alt="logo_python">
+
+            <p>Python es un lenguaje de programación popular por su simplicidad y versatilidad. 
+                Es ideal para principiantes porque su sintaxis es clara y fácil de leer, lo que permite concentrarse más en la lógica que en los detalles técnicos. 
+                Python se utiliza en una amplia variedad de campos, como desarrollo web, análisis de datos, inteligencia artificial y automatización. 
+                Es una excelente opción para aprender las bases de la programación.
+            </p>
+            <h2>¿Como empezar en python?</h2>
+                <h2>Instala Python</h2>
+            <ul>
+                <li>Ve al sitio oficial de <a href="https://www.python.org/" target="_blank">Python</a> y descarga la última versión compatible con tu sistema operativo. Durante la instalación, asegúrate de marcar la opción "Add Python to PATH".</li>
+                <li><strong>Elige un editor de código</strong></li>
+                <li>Puedes usar un editor como VS Code, PyCharm (ideal para principiantes) o incluso el simple IDLE que viene con Python.</li>
+                <li>Aprende lo básico</li>
+                <li>Comienza con temas como</li>
+                <li>Sintaxis básica: variables, tipos de datos y operadores.</li>
+                <li>Control de flujo condicionales <code>(if  else elif ) y bucles (for, while)</code>.</li>
+                <li>Funciones y manejo de errores</li>
+                <li>Practica con proyectos simples</li>
+                <li>Escribe pequeños programas como una calculadora, un juego de adivinanzas o una lista de tareas. Esto te ayudará a aplicar lo aprendido.</li>
+                <li>Consulta recursos adicionales</li>
+                <li>Usa plataformas como <a href="https://www.w3schools.com/python/" target="_blank">w3schools</a>, <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>, o sigue cursos gratuitos en YouTube.</li>
+            </ul>
             <h2>Video recomendado</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nKPbfIU442g?si=gRmiJpZ2Fs7UpU9G" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/nKPbfIU442g?si=gRmiJpZ2Fs7UpU9G" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </article>
 
-            <!-- GUIA DE HTML Y CSS -->
+<!-- GUIA DE HTML Y CSS -->
 
-            <article class="lenguaje" id="html">
+            <article class="card" id="html_css">
                 <h2 class="titulo_lenguaje">HTML/CSS</h2>
 
                 <img id="logo_html" src="img/logo/html_css_logo.png" alt="logo_html">
@@ -93,13 +112,13 @@
                     <li>Crea tu primer archivo HTML</li>
                     <li>Abre tu editor de texto y escribe el siguiente codigo basico</li>
                 </ul>
-        <img src="img/guia_html/Paso_3_html.PNG" alt="paso3">
+            <img class="imagenes" src="img/guia_html/Paso_3_html.PNG" alt="paso3">
                 <ul>
                     <li>Despues lo abres para ver el resultado, (Con la extension live server)</li>
                     <li><strong>Crea tu primer archivo CSS</strong></li>
                     <li>Para esto tienes que crear una carpeta al mismo nivel del html con el nombre de css (de preferencia), y dentro de esa carpeta poner un archivo que termine en .css por ejemplo (estilos.css)</li>
                 </ul>
-        <img src="img/guia_html/paso_4_html.PNG" alt="paso4">
+            <img class="imagenes" src="img/guia_html/paso_4_html.PNG" alt="paso4">
 
                 <ol>
                     <li>Experimenta con los elementos HTML</li>
@@ -109,11 +128,11 @@
                     <li>Crea paginas pequeñas como practica, como tu perfil o una lista de tareas o una galeria de imagenes</li>
                 </ol>
                 <h2>Video recomendado para HTML Y CSS</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ELSm-G201Ls?si=6UdzVdfwKmG9_R17" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/ELSm-G201Ls?si=6UdzVdfwKmG9_R17" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </article>
 
             <!-- GUIA DE JAVAAAAAAAA script -->
-            <article class="lenguaje" id="javascript">
+            <article class="card" id="javascript">
                 <h2>JAVA SCRIPT</h2>
                 <img class="lenguaje_logo" src="img/logo/javascript_logo.png" alt="javascript">
                 <p>
@@ -135,7 +154,7 @@
                     <li>Eventos: Descubre cómo responder a interacciones del usuario (por ejemplo, un clic en un botón).</li>
                 </ul>
 
-        <img src="img/guia_java/paso3_javascript.PNG" alt="paso3java">
+            <img class="imagenes" src="img/guia_java/paso3_javascript.PNG" alt="paso3java">
                 <h2><strong>Practica</strong></h2>
                 <ul>
                     <li>Usa la etiqueta -scripts-  para escribir tu codigo en javascript</li>
@@ -146,7 +165,7 @@
                     <li>Explora conceptos mas avanzados</li>
                     <li>Funciones anonimas y flecha (=>)</li>
                 </ul>
-                    <img src="img/guia_java/paso5_javascript.PNG" alt="paso5">
+                    <img class="imagenes" src="img/guia_java/paso5_javascript.PNG" alt="paso5">
                 <ul> 
                     <li>Promesas y async/await: Maneja tareas asincrónicas</li>
                     <li>Manipulación de APIs: Aprende a obtener datos de servicios web.</li>
@@ -160,8 +179,10 @@
                     <li>Y lo mas importante, Se constante</li>
                 </ul>
                 <h2>Video recomendado para JavaScript</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/z95mZVUcJ-E?si=Q0nFPoASOerux3NC" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/z95mZVUcJ-E?si=Q0nFPoASOerux3NC" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </article>
         </main>
     </body>
 </html>
+
+<!-- FIN DE GUIA -->
