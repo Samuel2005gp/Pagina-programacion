@@ -36,10 +36,15 @@ nav li {
     justify-content: space-evenly;
     margin: 16px auto;
     font-size: 25px;
+    color: white;
+}
+
+nav a{
+    color: white;
 }
 
 
-nav li:hover{
+nav a:hover{
     font-size: 29px;
     color: rgb(243, 208, 11);
     
